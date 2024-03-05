@@ -14,9 +14,7 @@ const Layout = () => {
         <div className="mt-10 mr-5 ml-5">
           <Outlet />
         </div>
-        <div>
-          <div></div>
-        </div>
+        
       </div>
     </div>
   );
