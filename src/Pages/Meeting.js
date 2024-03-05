@@ -1,7 +1,7 @@
 import { FaSearch } from "react-icons/fa";
 import dltbtn from "../Assets/dltbtn.svg";
 import edit from "../Assets/edit.svg";
-import userimage from "..//Assets/userimage.svg";
+import userimage from "../Assets/userimage.svg";
 
 const Meeting = () => {
   return (
@@ -49,7 +49,7 @@ const Meeting = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr className="border-t-2 border-b-2 m-5">
               <td className="text-left">#12482834832</td>
               <td className="w-[200px] text-left">12:33 pm. 13 Nov, 2023</td>
 

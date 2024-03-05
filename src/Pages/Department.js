@@ -44,13 +44,17 @@ const Department = () => {
       </div>
       <hr />
 
+      <div className="flex justify-end gap-2 items-center mt-3">
+        <input type="checkbox" className="w-[18px] h-[18px]" />
+        <label className="text-[#6D6D6D]">Select All</label>
+      </div>
       <div className="flex flex-wrap gap-10 mt-10 ml-10">
         <div className="cursor-pointer">
           <div className="shadow-lg w-[180px] h-[180px] rounded flex flex-col justify-center items-center">
             <div>
               <img src={property} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Property Lawyer
             </div>
           </div>
@@ -60,7 +64,7 @@ const Department = () => {
             <div>
               <img src={criminal} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Criminal Lawyer
             </div>
           </div>
@@ -70,7 +74,7 @@ const Department = () => {
             <div>
               <img src={property} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Tax Lawyer
             </div>
           </div>
@@ -80,7 +84,7 @@ const Department = () => {
             <div>
               <img src={corporate} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Corporate Lawyers
             </div>
           </div>
@@ -90,7 +94,7 @@ const Department = () => {
             <div>
               <img src={civil} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Civil Rights Lawyer
             </div>
           </div>
@@ -100,7 +104,7 @@ const Department = () => {
             <div>
               <img src={property} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Property Lawyer
             </div>
           </div>
@@ -110,7 +114,7 @@ const Department = () => {
             <div>
               <img src={criminal} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Criminal Lawyer
             </div>
           </div>
@@ -120,7 +124,7 @@ const Department = () => {
             <div>
               <img src={property} alt="" />
             </div>
-            <div className="flex justify-center mt-5 text-[#8C8C8C] font-extrabold">
+            <div className="flex justify-center mt-5 text-black font-semibold">
               Tax Lawyer
             </div>
           </div>

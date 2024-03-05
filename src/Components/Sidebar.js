@@ -55,54 +55,68 @@ const Sidebar = () => {
           </li>
         </Link>
         <Link to="/notification">
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
-          <img src={notification} alt="" />
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
+            <img src={notification} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Notification</span>
-        </li>
+            <span className="text-white ml-2 font-semibold">Notification</span>
+          </li>
         </Link>
         <Link to="/meeting">
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
-          <img src={meeting} alt="" />
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
+            <img src={meeting} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Meeting</span>
-        </li>
+            <span className="text-white ml-2 font-semibold">Meeting</span>
+          </li>
         </Link>
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
-          <img src={booking} alt="" />
+        <Link to="/Booking">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
+            <img src={booking} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Booking</span>
-        </li>{" "}
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
-          <img src={services} alt="" />
+            <span className="text-white ml-2 font-semibold">Booking</span>
+          </li>
+        </Link>
+        <Link to="/services">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
+            <img src={services} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Services</span>
-        </li>{" "}
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
-          <img src={banner} alt="" />
+            <span className="text-white ml-2 font-semibold">Services</span>
+          </li>
+        </Link>
+        <Link to="/banners">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a]">
+            <img src={banner} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Banners</span>
-        </li>{" "}
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
-          <img src={allfiles} alt="" />
+            <span className="text-white ml-2 font-semibold">Banners</span>
+          </li>
+        </Link>
+        <Link to="allfiles">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
+            <img src={allfiles} alt="" />
 
-          <span className="text-white ml-2 font-semibold">All Files</span>
-        </li>
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
-          <img src={todolist} alt="" />
+            <span className="text-white ml-2 font-semibold">All Files</span>
+          </li>
+        </Link>
+        <Link to="todolist">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
+            <img src={todolist} alt="" />
 
-          <span className="text-white ml-2 font-semibold">To-Do List</span>
-        </li>
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer  hover:bg-[#1e3a8a]">
-          <img src={permission} alt="" />
+            <span className="text-white ml-2 font-semibold">To-Do List</span>
+          </li>
+        </Link>
+        <Link to="permissions">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer  hover:bg-[#1e3a8a]">
+            <img src={permission} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Permissions</span>
-        </li>
-        <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
-          <img src={message} alt="" />
+            <span className="text-white ml-2 font-semibold">Permissions</span>
+          </li>
+        </Link>
+        <Link to="messages">
+          <li className="flex  pl-[50px] pt-[12px] pb-[12px] items-center cursor-pointer hover:bg-[#1e3a8a] ">
+            <img src={message} alt="" />
 
-          <span className="text-white ml-2 font-semibold">Messages</span>
-        </li>
+            <span className="text-white ml-2 font-semibold">Messages</span>
+          </li>
+        </Link>
       </ul>
     </div>
   );

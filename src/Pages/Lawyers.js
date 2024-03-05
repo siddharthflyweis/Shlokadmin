@@ -1,4 +1,3 @@
-
 import { FaSearch } from "react-icons/fa";
 import dltbtn from "../Assets/dltbtn.svg";
 import edit from "../Assets/edit.svg";
@@ -48,7 +47,7 @@ const Lawyers = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="shadow-lg bg-[white]">
+            <tr className="shadow-lg bg-[white] mb-2">
               <td className="text-left">
                 <span class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
                   New
